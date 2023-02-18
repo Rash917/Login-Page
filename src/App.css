@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #6e61fb;
 }
 
 .App-logo {
@@ -28,11 +29,44 @@
   color: #61dafb;
 }
 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
-  }
+  
+}
+}
+
+.cds--text-input App1 cds--text-input--md{
+  font-size: 100px;
+  color: aqua;
+}
+
+.app1 {
+  margin-top: 1rem;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app2 {
+  margin-top: 1rem;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app3 {
+  margin: 30px;
+  padding: 10px;
+  
+}
+
+.textBox1 {
+  display: flex;
 }
